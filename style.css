@@ -19,6 +19,7 @@ div.screen {
 }
 
 h1 {
+    will-change: transform, opacity;
     display: block;
     position: relative;
     color: white;
@@ -47,6 +48,7 @@ h1 span:hover {
 }
 
 button {
+    will-change: filter, transform;
     position: relative;
     display: block;
     font-family: Monospace, serif;
